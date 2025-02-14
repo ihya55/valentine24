@@ -10,10 +10,10 @@ const catImage = document.getElementById("cat-image");
 const confirmationCat = document.getElementById("confirmation-cat");
 
 const catImages = [
-  "images/download2.gif",
-  "images/download3.gif",
-  "images/download4.gif",
-  "images/download5.gif",
+  "images/download2.gif?v=2",
+  "images/download3.gif?v=2",
+  "images/download4.gif?v=2",
+  "images/download5.gif?v=2",
 ];
 
 const confirmMessages = [
@@ -24,9 +24,9 @@ const confirmMessages = [
 ];
 
 const confirmImages = [
-  "images/love2.gif",
-  "images/love3.gif",
-  "images/love4.gif",
+  "images/love2.gif?v=2",
+  "images/love3.gif?v=2",
+  "images/love4.gif?v=2",
 ];
 
 if (noButton) {
