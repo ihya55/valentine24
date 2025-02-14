@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine Dashboard</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="question-container" class="container text-center p-5">
+        <h2>Kakak sayang aku ngga?</h2>
+        <img id="cat-image" src="./images/download.gif" class="img-fluid" alt="Cute Cat" style="margin-bottom: 100px;">
+        <div class="mt-3">
+            <button id="yes-button" class="btn btn-info m-2">Ya 💖</button>
+            <button id="no-button" class="btn btn-warning m-2">Tidak 💔</button>
+        </div>
+    </div>
+
+    <div id="confirmation-container" class="container text-center p-5" style="display: none;">
+        <h2 id="confirmation-text">Beneran? 🤨</h2>
+        <img id="confirmation-cat" src="./images/love1.gif" class="img-fluid" alt="Cute Cat">
+        <div class="mt-3">
+            <button id="confirm-yes-button" class="btn btn-primary m-2">Ya 💕</button>
+        </div>
+    </div>
+    
+
+    <div id="dashboard-container" class="container text-center" style="display: none;">
+        <header class="py-4">
+            <h1 class="text-pink">Memories with You 💖</h1>
+            <nav>
+                <button class="btn btn-primary m-2" onclick="showPage('gallery')">Galeri & Notes 📸</button>
+                <button class="btn btn-info m-2" onclick="showPage('music')">Playlist 🎵</button>
+            </nav>
+        </header>
+        
+        <section id="home" class="page active p-4">
+            <h2 class="text-danger">Welcome, Love! 💕</h2>
+            <p class="lead">Mari mengenang memori indah bersama 🎀</p>
+        </section>
+
+        <section id="gallery" class="page p-4">
+            <h2 class="text-warning">Galeri & Notes ✨</h2>
+            <div class="row">
+                <div class="col-md-12">
+                    <img src="./images/7.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Aku ngga espek kakak ngajakin foto di Bioskop ini, yah ini benar-benar jadi pengalaman pertama ku kesini."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/2.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Aku suka banget di pat-pat apalagi karena foto mirror gini, foto-foto seperti ini foto yang ku suka karena bisa up kalau kakak punya ku tanpa nunjukkin indentias kakak yang sebenarnya."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/1.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Pengalaman piknik pertama kita, dan pengalaman main-main hujan bareng. Ini hal yang menyenangkan yang berhubungan dengan hujan dan kakak."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/3.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Malu-malu ya gess yaa... Menunggu cosdate hehe."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/9.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Matamu selalu mengalihkan dunia ku."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/4.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Punyaaa akuuuu."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/5.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Adegan panas, jangan ditiruuu!"</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/8.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Lihatlah betapa bahagianya kita bersama, pengen ku kiss manjahhh."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/6.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Foto resmi kita berduaaa, next foto lagiii."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/10.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Foto kenangan berdua yg romance di hari itu, ntah kenapa foto-foto di saat itu menjadi foto favorite ku."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/11.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Pacar ku ganteng."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/12.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Aku suka obsesi ini dan rasa tegang nya membuat ku makin jatuh cinta."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/13.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Agak lawak dikit sisanya sangat LAWAK."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/14.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Kakak tau satu hal yang aku suka? Dibuat ngga nafas sama kakak dengan ketegangan yang sangat intens! AWWWWW."</div>
+                </div>
+                <div class="col-md-12">
+                    <img src="./images/15.jpeg" class="img-fluid rounded" alt="Momen Bersama">
+                    <div class="alert alert-success">"Aku suka tangan kakak disana."</div>
+                </div>
+                <div class="col-md-12">
+                    <div class="alert alert-success">"Semoga terhibur yah sayangku! 💞"</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="music" class="page p-4">
+            <h2 class="text-primary">Playlist Favorit 🎶</h2>
+            <div class="list-group">
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1nc4oXLc3slDMDgl3DMRtJ?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/1lCv3fOI9bqBypLpgUfA4T?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/26mwiyfmCKJBneTzlELpun?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+        </section>
+    </div>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
