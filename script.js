@@ -10,10 +10,12 @@ const catImage = document.getElementById("cat-image");
 const confirmationCat = document.getElementById("confirmation-cat");
 
 const catImages = [
-  "https://ihya55.github.io/valentine24/images/download2.gif"
-  "https://ihya55.github.io/valentine24/images/download3.gif"
-  "images/download4.gif?v=2",
-  "images/download5.gif?v=2",
+  "images/download2.gif",
+  "images/download3.gif",
+  "images/download4.gif",
+  "images/download7.gif",
+  "images/download6.gif",
+  "images/download5.gif",
 ];
 
 const confirmMessages = [
